@@ -21,9 +21,6 @@ describe('button test', () => {
     });
 
     browser = await puppeteer.launch({
-      // headless: false,
-      // slowMo: 250,
-      // devtools: true,
     });
 
     page = await browser.newPage();
